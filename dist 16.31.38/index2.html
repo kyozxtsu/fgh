@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <script defer src="main.4510f883a59a4c5975b3.bundle.js"></script>
+    <script defer src="vendor.1579ece159f57f8c6aa5.bundle.js"></script>
+    <link href="main.1ab7be3f4992af9e982d.css" rel="stylesheet">
+    <link rel="icon" href="icons/icon-192x182.png">
+    <link rel="icon" href="icons/icon-512x512.png">
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }).catch(error => {
+                    console.log('ServiceWorker registration failed: ', error);
+                });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid text-dark row w-100">
+        <div class="col-lg-2">
+            <div class="container align-content-center my-3 text-center bg-light sticky-top d-flex flex-lg-column mb-2" style="flex-wrap:nowrap">
+                <div class="rounded-3 img-fluid mb-lg-5 mt-lg-3 img-sm">
+                    <img class="img-thumbnail" src="free-icon-disco-ball-6171387.png" alt="">
+                </div>
+                <button class="navbar-toggler btn-outline-primary d-lg-none align-self-center" style="margin-left:auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Меню</button>
+                <nav class="navbar navbar-expand-lg d-none d-lg-block bg-body-tertiary">
+                    <div class="container-fluid flex-lg-column">
+                        <div class="navbar-brand">Меню</div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav flex-lg-column text-primary">
+                                <a class="nav-link text-primary" aria-current="page" href="#hello-sec">Домой</a>
+                                <a class="nav-link text-primary" href="#what-we-do-sec">Наш состав</a>
+                                <a class="nav-link text-primary" href="#about-sec">Промо ролик</a>
+                                <a class="nav-link text-primary" href="#contacts-sec">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel" data-bs-scroll="false">
+                    <div class="offcanvas-header text-bg-dark">
+                        <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Меню</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="offcanvas-body text-bg-dark">
+                        <div class="navbar-nav flex-lg-column">
+                            <a class="nav-link" aria-current="page" href="#hello-sec">Домой</a>
+                            <a class="nav-link" href="#what-we-do-sec">Наш состав</a>
+                            <a class="nav-link" href="#about-sec">Промо ролик</a>
+                            <a class="nav-link" href="#contacts-sec">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg">
+            <div class="w-100 mx-auto bg-body-secondary" data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup" data-offset="0">
+                <div class="w-100 cookie-bg d-flex justify-content-center align-items-center mb-5" id="hello-sec" style="height:100vh">
+                    <div class="p-3 rounded-5 p-lg 5 bg-white text-center d-flex align-items-center justify-content-center flex-column row-gap-5">
+                        <h2 class="my-font-sm text-primary">Тело Разум Сердце</h2>
+                        <div class="text-secondary">Научись управлять своим телом.<br><strong>Танцевальные мастер-классы от студентов <br>РГУ нефти и газа имени И.М.Губкина</strong></div>
+                        <a class="btn btn-third text-white" href="#what-we-do-sec">Смотреть ниже</a>
+                    </div>
+                </div>
+                <div class="container d-flex justify-content-center align-content-center flex-column text-center mb-3" id="what-we-do-sec">
+                    <h2 class="my-font-lg text-primary">Наш хореографический состав</h2>
+                    <div class="text-primary">Здесь вы можете познакомиться с танцорами и <br>выбрать на чей мастер-класс хотели бы пойти</div>
+                </div>
+                <div class="row align-items-start">
+                    <div class="col pb-5">
+                        <div class="row p-5 m-4 d-flex flex-column align-items-center justify-content-center bg-white text-center w-auto rounded-3 shadow">
+                            <div class="text-primary my-font">Вадим Михайлов</div>
+                            <div class="img mb-3"><img class="ph" src="IMG_7903.JPG" alt=""></div>
+                            <div class="text-secondary">Брейк-данс - часть хип-хоп культуры и одно из самых зрелищных направлений в уличных танцах. Вот уже 12 лет я занимаюсь этим направлением и каждый раз ловлю себя на мысли, что здесь нет потолка.
+                                ‘’Постоянное совершенство’’ - вот как я могу описать брейк-данс. Ты стараешься двигаться чище, быстрее, оригинальнее, придумываешь новые движения, связки, стиль и показываешь всё это на танцполе.
+                                Сила, техника и харизма - этим трём вещам я научу вас на мастер-классе. Пора узнать, как двигаться в ритме Брейк-данс.<br>На мастер-классе вы научитесь базовым движениям, а также откроете новые возможности своего тела и другой взгляд на музыку.
+                            </div>
+                        </div>
+                        <div class="row p-5 m-4 d-flex flex-column text-primary align-items-center justify-content-center bg-white text-center w-auto rounded-3 shadow">
+                            <div class="text-primary my-font">Екатерина Никитина</div>
+                            <div class="img mb-3"><img class="ph" src="IMG_7900.JPG" alt=""></div>
+                            <div class="text-secondary">Хип-хоп - это уличный танцевальный стиль, который родился в Нью-Йорке в 1970-х годах. Он сочетает в себе элементы различных танцевальных стилей, таких как тап, джаз, брейк, и фанк. Характеризуется ритмичными движениями тела, свободой выражения и индивидуальным стилем. «Хип-хоп привлек меня своей энергией, свободой и возможностью быть собой. Благодаря этому стилю я научилась не только танцевать, но и быть более уверенной в себе, выражать свои эмоции через движения и, конечно же, находить радость в каждом шаге. Я благодарна хип-хопу за то, что он превратил мою жизнь в непрерывное танцевальное приключение».
+                                <br>На мастер-классе я раскрою энергетику вашего тела, научу вас чувствовать его, а также покажу вам как наслаждаться каждым движением танца. Вы получите заряд энергии и порцию уверенности в себе.
+                            </div>
+                        </div>
+                        <div class="row p-5 m-4 d-flex flex-column align-items-center justify-content-center bg-white text-center w-auto rounded-3 shadow">
+                            <div class="text-primary my-font">Вероника Бортняева</div>
+                            <div class="img mb-3"><img class="ph" src="IMG_7906.JPG" alt=""></div>
+                            <div class="text-secondary">Джаз-фанк - одно из самых популярных направлений, которое сочетает в себе элементы многих стилей. Это экспрессия, контраст движений и зрелищность.
+                                <br>На мастер-классе Вероники Бортняевой вы научитесь не стесняться себя, заполнять музыку и управлять своими эмоциями и, безусловно, узнаете, что такое джаз-фанк.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container w-100 p-5" id="about-sec">
+                    <div class="row mb-3">
+                        <div class="col-lg-3 col-md-4 col-sm-12 text-center">
+                            <div class="p-2 shadow rounded-circle">
+                                <img class="rounded-circle img-thumbnail" src="free-icon-disco-ball-6171387.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h2 class="my-font-lg text-primary">Наше видео-приветствие</h2>
+                            <div class="text-justify text-secondary">Здесь вы можете посмотреть видео-приветствие от нашего коллектива. Узнайте больше о нашем проекте, нашей миссии и тех, кто делает это возможным. Это возможность окунуться в мир танцев и вдохновения, который мы создаем для вас.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="-7865746729701065242.MP4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="container w-100 p-5" id="contacts-sec">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="my-font-lg text-primary">Контакты</h2>
+                            <div class="text-justify text-secondary">Если у вас есть вопросы, пожелания или предложения, пожалуйста, свяжитесь с нами. Мы всегда рады помочь и ответить на ваши вопросы.</div>
+                            <ul>
+                                <li>Email: info@example.com</li>
+                                <li>Телефон: +7 (123) 456-7890</li>
+                                <li>Адрес: ул. Примерная, д. 1, г. Москва, Россия</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
